@@ -1,0 +1,125 @@
+header
+{
+    margin: -8px -8px -8px;
+
+    font-family: 'Courier New', Courier, monospace;
+
+    background-image: linear-gradient(to bottom, white, #d9d9d9);
+    border-bottom: 1px solid #cccccc;
+}
+
+header h1
+{
+    padding: 10px;
+    padding-left: 30px;
+}
+
+h2
+{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+h3
+{
+    color: gray;
+
+    margin-top: -20px;
+}
+
+main
+{
+    font-family: Verdana, Tahoma, sans-serif;
+    text-align: center;
+}
+
+table
+{
+    border: 2px solid grey;
+    padding: 10px;
+
+    background-color: white;
+
+    margin: auto;
+}
+
+td
+{
+    padding: 20px;
+
+    border: 1px solid gray;
+}
+
+main
+{
+    margin: -8px;
+    padding-bottom: 10px;
+}
+
+td:hover
+{
+    background-image: linear-gradient(to top, white,  #bfbfbf);
+}
+
+div
+{
+    margin: -22px;
+}
+
+form
+{
+    width: 350px;
+    margin: auto;
+
+    padding: 20px;
+    margin-top: 10px;
+
+    padding-left: 40px;
+
+    line-height: 40px;
+
+    border: 1px solid grey;
+}
+
+#titre, #date, textarea, select
+{
+    float: right;
+    width: 210px;
+    height: 30px;
+}
+
+select
+{
+    width: 215px;
+}
+
+#envoyer
+{
+    width: 120px;
+    height: 30px;
+
+    background-color: royalblue;
+    color: white;
+    border-radius: 45px;
+}
+
+.ferié
+{
+    background-color: #d9d9d9;
+    color: black;
+}
+
+.winter { color: #6666ff; }
+div.winter { background-image: linear-gradient(to bottom, #b3ccff, #66ff33);}
+.spring { color:  #33cc00; }
+div.spring { background-image: linear-gradient(to bottom, #66ff33, #ffff1a);}
+.summer { color: #cccc00;}
+div.summer { background-image: linear-gradient(to bottom, #ffff1a, #ac7339);}
+.fall { color: #994d00;}
+div.fall { background-image: linear-gradient(to bottom, #ac7339, #ac7339);}
+div.dec { background-image: linear-gradient(to bottom, #ac7339, white);}

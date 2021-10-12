@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>MonAgenda.com - Agenda en ligne</title>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=0.1">
+    <link rel="stylesheet" href="agenda.css">
+</head>
+
+<body>
+    <header>
+        <a href="agenda.html"><h1>MonAgenda.com</h1></a>
+    </header>
+
+    <form>
+        <h2>Ajout d'un rappel :</h2>
+        <label for="titre">Titre du rappel :</label>
+        <input type="text" name="titre" id="titre" placeholder="Réunion, apéro, repas de famille...">
+        <br>
+        <label for="date">Quel jour ? :</label>
+        <input type="datetime-local" name="date" id="date">
+        <br>
+        <label for="desc">Description :</label>
+        <textarea></textarea>
+        <br>
+        <label for="cat">Catégorie :</label>
+        <select name="" id="">
+            <option value="">Choisissez une catégorie</option>
+            <option value="">Travail</option>
+            <option value="">Social</option>
+            <option value="">Sport</option>
+            <option value="">RDV</option>
+            <option value="">Divers</option>
+        </select>
+        <br>
+        <input type="submit" name="envoyer" id="envoyer" placeholder="Ajouter">
+    </form>
+</body>
